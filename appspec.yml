@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /app
-    destination: /opt/bitnami/apache2/htdocs/hdrwantk-app
+    destination: /opt/bitnami/apache2/htdocs/hdrwantk-other-app
 hooks:
   ApplicationStart:
     - location: start_service
