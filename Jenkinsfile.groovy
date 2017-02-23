@@ -5,7 +5,7 @@ node {
     env.AWS_DEFAULT_REGION = 'ap-southeast-1'
 	
 	def applicationName = 'hendrawan-app'
-	def deploymentGroupName = 'granit-app-group' // change me
+	def deploymentGroupName = 'william-app-group' // change me
 	def s3BucketName = 'deployment-cdc'
 	
 	//Cleanup workspace
