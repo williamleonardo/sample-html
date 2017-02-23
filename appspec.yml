@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /app
-    destination: /opt/bitnami/apache2/htdocs/granit
+    destination: /opt/bitnami/apache2/htdocs/william
 hooks:
   ApplicationStart:
     - location: start_service
